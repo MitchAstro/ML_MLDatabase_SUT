@@ -29,8 +29,7 @@ with open_database('/fred/oz054/lmc') as df:
 
     #Split data into 100 equal pieces and allocate to each core
     split_data = np.array_split(df.objid.values, array_size)[jobid]
-    #############################################################################################
-    
+        
     #Create csv file and put in heading
     file_name = 'Upsilon_classification_objects_jobid_' + str(jobid) + '.csv' #Give unique file name for each job
     with open(file_name, mode ='a+', newline='') as class_file:
