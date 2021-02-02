@@ -1,6 +1,6 @@
-# Classification and plotting of light curves using machine learning classifier [UPSiLoN](https://github.com/dwkim78/upsilon) #
+# Classification and plotting of light curves using machine learning classifier UPSiLoN #
 
-This repo contains two scripts.  The first script classifies stellar light curves using the machine learning stellar classification tool UPSiLoN.  The second can be used to filter and plot stellar light curves meeting certain desired criteria identified by UPSiLoN in the first script. Both scripts use the [MLDatabase](https://github.com/1313e/MLDatabase).  
+This repo contains two scripts.  The first script classifies stellar light curves using the machine learning stellar classification tool [UPSiLoN](https://github.com/dwkim78/upsilon).  The second can be used to filter and plot stellar light curves meeting certain desired criteria identified by UPSiLoN in the first script. Both scripts use the [MLDatabase](https://github.com/1313e/MLDatabase).  
 
 ## Upsilon_classification_objects_MLDatabase_parrallel_processing.py ##
 This script depends on the machine learning stellar classification tool [UPSiLoN](https://github.com/dwkim78/upsilon).  This script also uses an "embarrassingly parallel" job array.  When running on a supercomputer, the following shell script may be of assistance:
