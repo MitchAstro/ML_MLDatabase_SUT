@@ -31,7 +31,7 @@ A csv file containing the object ID and the all the features of the light curve 
 
 ## Graph_light_curves_MLDatabase.py ##
 
-This script identifies objects meeting certain parameters identified by UPSiLoN which have been stored in a csv file in by Upsilon_classification_objects_MLDatabase_parrallel_processing.py and plots there stellar light curve.  The parameters used to identify objects can be altered by modifying the boolean mask `filter_char = (upsilon_class_df["period"] < 0.25) & (upsilon_class_df["period"] > 0.00) & (upsilon_class_df["flag"] == 0)`.  
+This script identifies objects meeting certain parameters identified by UPSiLoN which have been stored in a csv file by `Upsilon_classification_objects_MLDatabase_parrallel_processing.py and plots there stellar light curve.  The parameters used to identify objects can be altered by modifying the boolean mask `filter_char = (upsilon_class_df["period"] < 0.25) & (upsilon_class_df["period"] > 0.00) & (upsilon_class_df["flag"] == 0)`.  
 
 The first light curve produced for each stellar object is a simple plot of time and light intensity.  The second is a folded light curve which depends on the light curve period identified by UPSiLoN.  
 
